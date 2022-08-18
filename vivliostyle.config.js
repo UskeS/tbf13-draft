@@ -3,7 +3,8 @@ module.exports = {
   author: 'Yusuke S. <yusuke.s91@gmail.com>', // default to `author` in `package.json` or undefined.
   language: 'ja', // default to undefined.
   // size: 'A4', // paper size.
-  theme: '@vivliostyle/theme-bunko', // .css or local dir or npm package. default to undefined.
+readingProgression: 'rtl', 
+theme: '@vivliostyle/theme-bunko', // .css or local dir or npm package. default to undefined.
   entry: ['test/index.md'],
   // entryContext: './manuscripts', // default to '.' (relative to `vivliostyle.config.js`).
   output: [
