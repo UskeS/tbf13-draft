@@ -1,10 +1,10 @@
 module.exports = {
   title: 'tbf13-draft', // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
-  author: 'spring-raining <harusamex.com@gmail.com>', // default to `author` in `package.json` or undefined.
+  author: 'Yusuke S. <yusuke.s91@gmail.com>', // default to `author` in `package.json` or undefined.
   language: 'ja', // default to undefined.
   // size: 'A4', // paper size.
-  theme: 'theme/theme_screen.css', // .css or local dir or npm package. default to undefined.
-  entry: ['content/index.md'],
+  theme: '@vivliostyle/theme-bunko', // .css or local dir or npm package. default to undefined.
+  entry: ['test/index.md'],
   // entryContext: './manuscripts', // default to '.' (relative to `vivliostyle.config.js`).
   output: [
     './tbf13-draft.pdf', // the output format will be inferred from the name.
